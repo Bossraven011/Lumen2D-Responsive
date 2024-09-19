@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(38, 151, 216);
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(221, 60, 122);
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(236, 236, 226);
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: rgb(30, 47, 207);
+    padding: 20px;
+    text-align: center;
+}
+
+nav, a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+img {
+    width: 20%;
+    margin-left: 70px;
+}
+
+.about-section {
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+.about-text {
+    background-color: rgb(17, 71, 92);
+    padding: 80px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer {
+    background-color: rgb(14, 165, 72);
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .header {
+        font-size: 3vw;
+        padding: 20px;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    nav, a {
+        font-size: 5vw;
+    }
+
+    .about-section {
+        padding: 10px;
+    }
+
+    img {
+        width: 20%;
+        margin-left: 20px;
+        height: auto;
+    }
+
+    .about-text {
+        padding: 5px;
+    }
+
+    h4 {
+        font-size: 8vw;
+    }
+
+    p {
+        font-size: 5vw;
+    }
+
+    .footer {
+        font-size: 10vw;
+        padding: 10px;
+    }
+
+}
